@@ -1,4 +1,5 @@
 
+/* base styling for all pages */
 .box-content {
     margin: 25px;
     /* width: 75%; */
@@ -12,7 +13,7 @@
     /* font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
-.special-about {
+.extended-box-content {
     height: 200vh;
 }
 
@@ -54,48 +55,6 @@
 
 /* about page styling images to the right (section-one) */
 
-.about-section1 {
-    box-sizing: content-box;
-    padding-left: 26px;
-    margin-top: -137px;
-}
-
-.about-divider {
-    border: 4px solid antiquewhite;
-    margin-right: 26px;
-    margin-left: 26px;
-    background-color: antiquewhite;
-}
-
-.about-heading {
-    text-align: left;
-    margin-left: 6px;
-}
-
-.about-paragraph {
-    margin-left: 6px;
-    text-wrap: wrap;
-    text-overflow: clip;
-    padding-bottom: 15px;
-}
-
-.about-image {
-    float: right;
-    margin-right: 26px;
-    height: 280px;
-    overflow: clip;
-    padding-bottom: 10px;
-}
-
-.paragraph-divider {
-    border: 4px solid antiquewhite;
-    background-color: antiquewhite;
-    margin-top: 15px;
-    margin-right: 26px;
-    margin-left: 5px;
-}
-
-/* about page styling images to the left (section-two) */
 .about-section {
     box-sizing: content-box;
     padding-left: 26px;
@@ -135,4 +94,12 @@
     margin-top: 15px;
     margin-right: 26px;
     margin-left: 5px;
+}
+
+/* portfolio page styling */
+
+.box-grouping {
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
