@@ -78,7 +78,7 @@
 .about-paragraph {
     margin-left: 6px;
     text-wrap: wrap;
-    text-overflow: clip;
+    
     padding-bottom: 15px;
 }
 
