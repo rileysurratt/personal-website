@@ -7,7 +7,7 @@
     border-radius: 40px;
     margin-left: 40px;
     margin-right: 40px;
-    background-color: #065535;
+    background-color: #065535 !important;
     color: antiquewhite;
     padding: 10px;
     /* font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
@@ -103,3 +103,15 @@
     margin-left: 15px;
     margin-right: 15px;
 }
+
+/* contact page styling */
+
+.form-container-one {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.form-container {
+    padding-top: 28px;
+}
+
