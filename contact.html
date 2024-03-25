@@ -35,7 +35,7 @@
     <div class="box-content">
         <div class="form-container-one">
             <h3 class="description">Contact Me</h3>
-            <form class="row g-3">
+            <form class="row g-3" method="POST" action="success.html">
                 <div class="col">
                     <label for="first-name" class="form-label">First Name</label>
                     <input type="text" class="form-control" id="first-name" aria-label="First name">
@@ -52,13 +52,13 @@
                     <label for="nice-message" class="form-label">Message</label>
                     <textarea class="form-control" id="nice-message" name="message" rows="8" cols="60" spellcheck="true"></textarea>
                 </div>
-                <button type="submit" class="btn btn-dark text-success">Submit</button>
+                <button type="submit" class="btn btn-dark text-success" id="submit">Submit</button>
             </form>
         </div>
         <div class="form-container-one">
             <h3 class="description">Sign Up for Newsletters</h3>
             <div class="form-container">
-                <form class="row g-3">
+                <form class="row g-3" method="POST" action="success.html">
                     <div class="col">
                         <input type="text" class="form-control" placeholder="First Name" aria-label="First Name">
                     </div>
@@ -68,7 +68,7 @@
                     <div class="col">
                         <input type="email" class="form-control" placeholder="Email" aria-label="Email">
                     </div>
-                    <button type="submit" class="btn btn-dark text-success">Submit</button>
+                    <button type="submit" class="btn btn-dark text-success" id="submit">Submit</button>
                 </form>
             </div>
         </div>
