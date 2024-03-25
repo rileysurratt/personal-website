@@ -30,7 +30,9 @@
 }
 
 .header-name {
-    margin-left: 78%;
+    /* margin-left: 70px; */
+    text-align: right;
+    margin-right: 35px;
 }
 
 .description {
