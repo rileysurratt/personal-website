@@ -21,7 +21,8 @@
     float: right;
     margin-right: 30px;
     margin-top: 20px;
-    /* border: 2px solid black; */
+    height: 59vh;
+    border: 4px solid antiquewhite;
 }
 
 .my-name {
@@ -39,6 +40,7 @@
     margin-top: 40px;
     text-align: center;
     font-weight: lighter;
+    margin-right: 35px;
 }
 
 .home-quote {
@@ -116,4 +118,3 @@
 .form-container {
     padding-top: 28px;
 }
-
