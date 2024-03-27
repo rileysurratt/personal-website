@@ -2,7 +2,6 @@
 /* base styling for all pages */
 .box-content {
     margin: 25px;
-    /* width: 75%; */
     height: 90vh;
     border-radius: 40px;
     margin-left: 40px;
@@ -10,11 +9,15 @@
     background-color: #065535 !important;
     color: antiquewhite;
     padding: 10px;
-    /* font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 .extended-box-content {
-    height: 200vh;
+    /* height: 200vh; */
+    height: 100%;
+}
+
+.extra-box-content {
+    height: 100%;
 }
 
 .picture {
@@ -110,6 +113,14 @@
     margin-top: 40px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.hover-blur {
+    filter: blur(5px);
+}
+
+.hover-blur:hover {
+    filter: none;
 }
 
 /* contact page styling */
