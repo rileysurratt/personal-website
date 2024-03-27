@@ -43,6 +43,10 @@
     margin-right: 35px;
 }
 
+.description:hover {
+    color: #93c0e2;
+}
+
 .home-quote {
     padding-top: 130px;
     text-align: center;
